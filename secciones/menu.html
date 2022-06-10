@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61550fb647.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/normalize.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <h1 class="chamoOriginal logo"><span class="el logo">El</span>Chamo Original</h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menuColor" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item text-ligh dropdown">
+                    <a class="nav-link " aria-current="page" href="../secciones/menu.html">Menú</a>
+                  </li>                  
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="../secciones/contacto.html">Contactanos</a>
+                  </li>                  
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="../secciones/ubicacion.html">Ubicación</a>
+                  </li>
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="../secciones/aboutus.html">Acerca de Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    
+
+        <div class="row bg-danger">
+
+            <div class="d-flex justify-content-evenly my-4 ">
+
+                <button type="button" class="btn btn-secondary btn-lg">Comida Rapida</button>
+                <button type="button" class="btn btn-secondary btn-lg">Almuerzos</button>
+                <button type="button" class="btn btn-secondary btn-lg">Arroces</button>  
+
+            </div> 
+
+        <main class="container-fluid bg-danger">      
+            <div class="row gap-3 mx-4 my-4 justify-content-evenly">
+                    
+                        <div class="col-lg-3 col-md-3 col-sm-12 card  w-25" style="width: 18rem;">
+                            <img src="../img/comidaRapida.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">Menú Completo de Comidas Rapidas</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 card w-25" style="width: 18rem;">
+                            <img  src="../img/almuerzo.PNG" class="card-img-top " alt="...">
+                            <div class="card-body ">
+                            <h5 class="card-title mt-5">Menú Almuerzos</h5>
+                            <p class="card-text">Todos los almuerzos vienen incluidos con: </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Sopa del dia y jugo </li>
+                            <li class="list-group-item">Principio: Papá francesa, Puré de papa o frijoles</li>
+                            <li class="list-group-item">Arroz, ensalada y patacón</li>
+                            </ul>                            
+                        </div>  
+
+                        <div class="col-lg-3 col-md-3 col-sm-12 card w-25" style="width: 18rem;">
+                            <img src="../img/arroces.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text">Menú Completo de toda la variedad de arroces</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="d-flex justify-content-center my-4 bg-dark">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/chuzores.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/mojarra.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/volante.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        
+        
+        
+        
+    </section>
+
+    <footer id="final" class="fondo__black border">
+        <div class="footer container">
+            <div class="footer__texto">                    
+                <p>El Chamo Original</p>
+                <p>Manizales - Caldas - Colombia</p>
+                <p>Barrio La Enea</p> 
+            </div>
+            <div class="footer__social">
+                <div class="f">
+                    <a href="https://www.facebook.com/Saborysazon20/?ref=page_internal"><i class="fa-brands fa-facebook-f"></i></a>
+                    
+                </div>
+                <div class="i">
+                    <a href="https://www.instagram.com/elchamooriginal1/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="g">
+                    <a href="https://www.google.com/search?q=EL+CHAMO+ORIGINAL&rlz=1C1ONGR_esCO991CO991&oq=el+chamo+original&aqs=chrome.0.69i59j46i175i199i512j69i61l3.1790j0j4&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
