@@ -1,0 +1,21 @@
+.footer {
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__texto {
+    font-size:20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+.footer__social i {
+    font-size: 30px;
+}

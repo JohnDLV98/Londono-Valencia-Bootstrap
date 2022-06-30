@@ -1,0 +1,46 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+.trans{
+    
+    transition: all .5s;
+}
+
+.trans:hover{    
+    background-color:transparent;
+    color: crimson;
+    transform: scale(1.5) translateY(8px);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fondo__black {
+    background-color: black;
+}
+
+.border{
+    border: 1px solid black;
+}

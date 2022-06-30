@@ -1,0 +1,69 @@
+/* Desktop */
+@media(min-width: 1024px){
+
+    #grilla{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "header  header  header"
+        "section section section"
+        "main    main    main"
+        "footer  footer  footer";
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 1fr 2fr 2fr .5fr;        
+        gap: 1px;
+    }   
+    
+    .header{
+        flex-direction: row;
+       
+    }
+
+    .hero {
+        
+        background-size: cover;
+        height: 120vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .heroSec{
+        background-size:cover;
+        height: auto;
+        }
+
+     nav ul {        
+        flex-direction: row;        
+    }
+
+    .cards {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        gap: 10px;
+    }
+
+    .heroSecHistory{
+
+        background-size: cover;
+        
+       
+        
+    }
+
+    .h2Lago{
+       padding-bottom: 200px;
+       font-size: 40px;  
+    }
+
+    .historia .pHistoria{
+        font-size: 25px;
+    }
+
+}

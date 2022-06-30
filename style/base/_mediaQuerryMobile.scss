@@ -1,0 +1,178 @@
+#grilla{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "section"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: .5fr 2fr 2fr .5fr;        
+    gap: 5px;
+}
+
+header#navegador{
+    grid-area: header;
+    background-color: black;
+}
+
+section#producto{
+    grid-area: section;
+    background-color: cornflowerblue;
+}
+
+main#principal{
+    grid-area: main;
+    background-color: darkgray;
+}
+
+footer#final{
+    grid-area: footer;
+    
+}
+
+//  ----------------
+
+.button {
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 15px;
+    border: 10px solid black;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: auto;
+    color: white;
+    padding: 35px;
+
+}
+
+/* .logo:hover{
+    transition: all 1s;
+    transform: scale(1.5);
+} */
+
+
+
+
+
+
+.hero {
+    background: url("../img/section.jpg");
+    
+    background-size: cover;
+    height: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-weight: 600;
+}
+
+.heroSec{
+    
+    background: url("../img/perro.jpg");
+    background-size:contain;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.h2sec{
+    color: crimson;
+    font-size: 30px;
+    padding-left: 36px;  
+}
+
+
+
+
+.hero p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+}
+
+.buttMenu{
+    color: whitesmoke; 
+    margin-bottom: 30px;   
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.cardAlone {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    width: 330px;
+    border-radius:15px;    
+}
+
+.cardAlone p{
+    color: black;
+}
+
+.img {
+    width: 100%;
+ }
+
+ .fondo__color {
+    background-color: #eed3b6;
+}
+
+.heroSecHistory{
+
+    background: url("../img/lago.jpg");
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    
+}
+
+.h2Lago{
+    color: white;
+    font-size: 30px;  
+}
+
+.historia {
+            .pHistoria{ 
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+
+                font-weight: 900;
+            }
+}    
+
+.buttLago{
+    color: aliceblue;
+    margin-bottom: 40px;
+}

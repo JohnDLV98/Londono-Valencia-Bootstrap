@@ -1,0 +1,25 @@
+.cards:hover{
+    transition: all 1s ease;
+    transform: scale(0.9);
+}
+
+.cardAlone:hover{
+    transition: all 1s ease;
+    transform: scale(1.2);
+}
+
+.heroSecHistory:hover{
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+
+.footer__social:hover{
+    transition: all 1s ease;
+    transform: scale(1.2);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+} 
