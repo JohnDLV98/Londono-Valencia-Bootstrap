@@ -1,0 +1,14 @@
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 20px;
+  }  
+
+  @each $name, $fs, $fw, $lh in $texts {
+    .text-#{$name} {
+      font-size: $fs;
+      font-weight: $fw;
+      line-height: $lh;
+    }  
+  }

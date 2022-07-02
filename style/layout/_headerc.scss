@@ -1,0 +1,114 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+  
+  .header {
+    background: $black;
+    color: #fff;
+
+    h1 {
+      padding-bottom: 20px;
+    }
+    
+    &__row {
+      display: flex;
+      align-items: center;
+      padding: 100px 0;
+
+      @include breakpoint(md) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      &-text {
+        width: 60%;
+        padding-right: 40px;
+        padding-top: 80px;
+
+        @include breakpoint(md) {
+          padding-right: 0;
+          width: 85%;
+        }
+
+        @include breakpoint(sm) {
+          width: 100%;
+        }
+
+        a {
+          margin-top: 30px;
+        }
+      } 
+
+      &-form {
+        width: 40%;
+        margin-left: 90px;
+
+        @include breakpoint(md) {
+          margin-left: 0;
+          margin-top: 40px;
+          width: 80%;
+        }
+
+        @include breakpoint(sm) {
+          width: 100%;
+        }
+
+        .form-logo {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          color: white;
+          font-size: 5rem;
+          padding: 70px ;
+          background-image: linear-gradient(to right, $secondary-color, $third-color);
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+  
+          p {
+            font-size: 5rem;
+            font-weight: 600;
+          }
+  
+        } 
+
+        form {
+          background: #FFF;
+          padding: 50px 50px 70px 50px;
+          border-bottom-right-radius: 50px;
+          border-bottom-left-radius: 50px;
+          button {
+            width: 100%;
+          }
+        }
+      }
+    } 
+  } 
+
+  form {
+    label {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: #4D4D4D;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #4D4D4D;;
+      border-radius: 20px;
+    } 
+
+    a {
+      width: 100%;
+      text-align: center;
+    }
+} 

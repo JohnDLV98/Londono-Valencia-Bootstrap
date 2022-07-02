@@ -4,107 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/61550fb647.js" crossorigin="anonymous"></script>
-    
+    <meta name="description" content="Todo sitio donde puedes encontrar al CHAMO ORIGINAL, plataformas y números para preguntar o hacer un pedido en todo MANIZALES y VILLAMARIA">
+    <meta name="keywords" content="INSTAGRAM, FACEBOOK, GOOGLE, BUSCAR, CHAMO ORIGINAL, IFOOD, RAPPI, WHATSAPP, CORREOS">
+    <script src="https://kit.fontawesome.com/61550fb647.js" crossorigin="anonymous"></script>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/style.css">
-    <title>El Chamo Original</title>
+    <title>Contacta al CHAMO</title>
 </head>
 <body>
-    <header>
-        <h1 class="chamoOriginal"><span class="el">El </span>Chamo Original</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="menu.html">Menú</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contactanos</a>
-                </li>
-                <li>
-                    <a href="ubicacion.html">Ubicación</a>
-                </li>
-                <li>
-                    <a href="aboutus.html">Acerca de Nosotros</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main class="mainContacto">
-            <h2>Si desea que nos contactemos directamente con usted</h2>
-            <h3>diligencie el siguiente formulario: </h3>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <h1 class="chamoOriginal logo"><span class="el logo">El</span>Chamo Original</h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menuColor" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item text-ligh dropdown">
+                    <a class="nav-link " aria-current="page" href="./menu.html">Menú</a>
+                  </li>                  
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="./contacto.html">Contactanos</a>
+                  </li>                  
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+                  </li>
+                  <li class="nav-item text-ligh">
+                    <a class="nav-link" href="./aboutus.html">Acerca de Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>    
+
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+
+          <section class="header__row-text">
+            <h1 class="text-h1">Contacta al Chamo Original</h1>
+            <p>Acá puedes contactarnos desde nuestras aplicaciones de ifood, RAPPI o si es para eventos envianos un e-mail y nos contactaremos contigo lo mas pronto posible</p>
+            <a class="btn__light" href="#">Ver Ifood</a>
+            <a class="btn__dark" href="#">Ver RAPPI</a>
+          </section>
+
+          <section class="header__row-form">
+            <div class="form-logo">
+              <p>EVENTOS</p>
+            </div>
             <form>
-                <label for="nombre_apellido">Ingrese Nombre y Apellido:  </label>
-                <input type="text" name="nombre_apellido"/><br> 
-
-                <label for="edad">Ingrese Edad:  </label>
-                <input type="number" name="edad"/><br>
-
-                <br>
-
-                <div>Hombre</div>
-                <input type="radio" name="sexo" value="Hombre">
-
-                <div>Mujer</div>
-                <input type="radio" name="sexo" value="Mujer">
-
-                <div>Otro</div>
-                <input type="radio" name="sexo" value="Otro">
-                <label for="otro_sexo"> Ingrese sexo  </label>
-                <input type="text" name="otro_sexo"/>
-                <input type="submit" value="Guardar">
-                <br>
-                <br>
-                <label for="email">Ingrese E-mail:  </label>
-                <input type="text" name="email"/><br>
-
-                <label for="telefono">Ingrese Número Celular:  </label>
-                <input type="text" name="telefono"/><br>
-
-                <label for="direccion">Ingrese Su Dirección:  </label>
-
-                <select name="localizacion_primera">
-                    <option value="cll">Calle</option>
-                    <option value="cra">Carrera</option>
-                    <option value="transv">Transversal</option>
-                </select>
-                <input type="text" name="dir_primera_parte"/>
-                <select name="localizacion_segunda">
-                    <option value="cll">Calle</option>
-                    <option value="cra">Carrera</option>
-                    <option value="transv">Transversal</option>
-                </select>
-                <input type="text" name="dir_segunda_parte"/>
-                <caption> - </caption>
-                <input type="text" name="dir_ultima_parte"/>
-                <br>    
-
-                
-                <label for="otra_direccion">Si no sabe su direccion escribanos como llegar</label>
-                <textarea type="text" name="otra_direccion"></textarea>
-                <br>
-                <div>Acepta términos y condiciones</div>
-                <caption>Si</caption>
-                <input type="checkbox" name="acepta" value="1" />
-                <caption>No</caption>
-                <input type="checkbox" name="rechaza" value="0" />
-                <br>
-
-                <div class="inputContacto">
-                    <input type="submit" value="Enviar Formulario">
-                    <input type="reset" value="Eliminar Formulario">
-                    <input type="button" value="Refrescar Pagina"/> 
-                </div>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="name">Correo</label>
+                <input class="form-control" type="email">
+              </div>
+              <div class="form-group">
+                <label for="name">Descripción</label>
+                <input class="form-control" type="text">
+              </div>
+              <a class="btn__dark">Enviar</a>
             </form>
-    </main>
+          </section>
 
-    <footer>
-        <h3>El Chamo Original</h3>
-        <h4>Manizales - Caldas - Colombia</h4>
-        <h5>Barrio La Enea</h5>     
+        </div>
+      </div>
+    </header>
+
+    
+    <section class="more">
+      <div class="container">
+
+        <h2 class="text-h2">Recuerda que:</h2>
+
+        <div class="more__row">
+          <div class="more__row-content">
+            <h3 class="text-h3">Domicilios </h3>
+            <p class="text-p">El tiempo de tardanza del domicilio dependerá de muchas cosas <br> como el clima, los pedidos que hayan antes del tuyo, y los <br> dias festivos importantes como el dia de la madre tenernos paciencia</p>
+          </div>
+          <div class="more__row-content">
+            <h3 class="text-h3">Transferencias</h3>
+            <p class="text-p">Hasta que el dinero no entre a las aplicaciones no se envía el domicilio </p>
+          </div>
+        </div>
+
+        <div class="more__row">
+          <div class="more__row-content">
+            <h3 class="text-h3">Pagos en Línea</h3>
+            <p class="text-p">Nosotros observamos los pantallazos de los pagos en línea y si vemos algo sospechoso, automaticamente cancelamos el pedido</p>
+          </div>
+          <div class="more__row-content">
+            <h3 class="text-h3">Devoluciones</h3>
+            <p class="text-p">Si nota algo extraño en la comida, llamar inmediatamente, no reenviaremos el pedido si la comida está en menor cantidad. </p>
+            <p class="text-p">Si en su motivo de devolucion notamos que nos miente, no la aceptaremos</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="f">
+        <a href="https://www.facebook.com/Saborysazon20/?ref=page_internal"><i class="fa-brands fa-facebook"></i></a>
+        
+    </div>
+    <div class="i">
+        <a href="https://www.instagram.com/elchamooriginal1/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="g">
+        <a href="https://www.google.com/search?q=EL+CHAMO+ORIGINAL&rlz=1C1ONGR_esCO991CO991&oq=el+chamo+original&aqs=chrome.0.69i59j46i175i199i512j69i61l3.1790j0j4&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-google"></i></a>
+    </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+

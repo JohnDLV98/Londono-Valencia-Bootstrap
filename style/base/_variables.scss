@@ -1,0 +1,25 @@
+$fuente-body: 'Nunito', sans-serif;
+$hoverIndexSections: all 1s ease;
+$colorFooterIndex: black;
+
+$font: 'Nunito Sans', sans-serif;
+
+$primary-color: #fa891f;
+$secondary-color: #bb5113;
+$third-color: #e2871f;
+$gray-color: #BFC4CA;
+$black: #040404;
+$white: #f4f4f4;
+$red: crimson;
+
+$texts: 
+    "h1"   3rem     600 1.6, 
+    "h2"   2.8rem   200 1.6, 
+    "h3"   1.5rem   bold 1.6, 
+    "p"    1rem     200;
+
+$breakpoints: (
+    sm: 480px,
+    md: 767px,
+    lg: 1024px,
+);

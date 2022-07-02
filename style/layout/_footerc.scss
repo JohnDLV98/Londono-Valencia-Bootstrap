@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+
+.footer {
+  height: 80px;
+  @include center-content();
+  gap: 20px;
+  color: $gray-color;
+  font-size: 2.5rem;
+  transition: all 0.5s ease-out;
+  background: $black;
+
+  i:hover {
+    color: $white;
+  }
+}

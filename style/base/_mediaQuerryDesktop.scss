@@ -16,10 +16,9 @@
     }   
     
     .header{
-        flex-direction: row;
-       
+        flex-direction: row;       
     }
-
+   
     .hero {
         
         background-size: cover;
@@ -36,9 +35,11 @@
         height: auto;
         }
 
-     nav ul {        
-        flex-direction: row;        
-    }
+     nav{
+            ul {        
+            flex-direction: row;        
+            }
+     }
 
     .cards {
         width: 100%;
@@ -62,8 +63,10 @@
        font-size: 40px;  
     }
 
-    .historia .pHistoria{
-        font-size: 25px;
+    .historia{
+         .pHistoria{
+            font-size: 25px;
+        }
     }
-
+    
 }

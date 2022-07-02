@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import "./variables";
+
+html,
+body {
+    font-family: $font;
+    line-height: 1.6;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a { text-decoration: none; }
