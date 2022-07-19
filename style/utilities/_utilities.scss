@@ -1,9 +1,9 @@
 
-.container {
-    margin: auto;
-    max-width: 1300px;
-    padding: 0 20px;
-  }  
+// .container {
+//     margin: auto;
+//     max-width: 1300px;
+//     padding: 0 20px;
+//   }  
 
   @each $name, $fs, $fw, $lh in $texts {
     .text-#{$name} {
